@@ -1,0 +1,565 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+
+.business-header {
+    height: 400px;
+    background: center center no-repeat scroll;
+    background-image:url(../images/indexbanner.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    text-align:center;
+    padding-top:100px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+
+.newshowcase {
+    margin-top:20px;
+    text-align:left;
+    
+}
+
+
+.hall-circle {
+
+  border-radius: 50%;
+  width:160px;
+  height:160px;
+}
+
+.hall-image {
+    position:absolute;
+    margin-left:50px;
+}
+
+.showcase-img-circle {
+
+  border-radius: 50%;
+  width:132px;
+  height:132px;
+}
+.course-image{
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+}
+.footerbanner{
+  content: "";
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+  padding-right: 0;
+  padding-left: 0;
+  max-height: 340px;
+  position: fixed;
+  background: #878e98;
+  /*background-image:url(../images/footer.jpg);*/
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  border-radius: 0;
+  bottom: 0;
+  color:#fff;
+  border-width: 1px 0 0;
+  margin-bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size:14px;
+}
+
+
+.recent-work-wrap {
+    position:relative;
+}
+
+.container {
+    
+}
+
+.page-row {
+    display:table-row;
+    height:1px;
+}
+
+#bottom gap {
+    margin-bottom:150px;
+}
+
+.history-header {
+    text-align: center;
+    padding-top:30px;
+    
+}
+
+
+
+.margin-bottom {
+    margin-bottom:150px;
+}
+
+.center {
+    text-align:center;
+    /*padding-bottom:50px;*/
+}
+
+.navbar-logo {
+  float: left;
+  height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.ultracontainer {
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    color: inherit;
+    width:100%;
+    height: 50px;
+    
+    /*background: center center no-repeat scroll;*/
+    /*background-image:url(../images/indexbanner1.png);*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align:center;
+    font-size:30px;
+    
+    
+}
+.ultracontainer h1{
+    padding-top:50px;
+    font-size:100px;
+    color:#34495e
+}
+.footer-image {
+    padding-top:9px;
+}
+
+.footer-text {
+    padding-top:19px;
+}
+
+.index-left p{
+    width:300px;
+    
+}
+
+.index-left h4{
+    padding-top:10px;
+    padding-bottom:10px;
+    
+    width:300px;
+}
+
+.grey-background {
+    background-color:#cccccc;
+   
+}
+.grey-background1 {
+    margin-top: 15px;
+    background-color:#cccccc;
+    height:30px;
+   
+}
+
+/* video css */
+
+.index-video {
+    width:91%;
+    height:400px;
+}
+
+@media screen and (max-width:1180px){
+    .index-video{
+        width:630px;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .embed-reponsive{ 
+        width:400px
+    }
+}
+
+
+
+
+.sub-news-container {
+    border-left:2px solid #eee;
+    list-style: none;
+}
+
+.sub-news-container p{
+    margin-left:50px;
+    font-size: 20px;
+}
+ 
+
+.sub-news-image {
+    position:absolute;
+    margin-left:-105px;
+}
+
+@media screen and (max-width: 900px){
+    .sub-news-container{
+        visibility: hidden;
+    }
+  
+}
+
+@media screen and (min-width: 900px){
+    
+    .sub-news-container{
+        margin-left:40px;
+    }
+}
+
+.sub-news-li {
+    margin-bottom: 100px;
+    list-style: none;
+}
+
+.sub-news-p {
+    padding-left:50px;
+}
+
+
+.margin-bot {
+    margin-bottom:35px;
+}
+
+.btn-more{
+    font-size: 14px;
+    padding: 3px;
+    margin-left: -5px;
+}
+.btn-submit{
+  border-radius: 0;
+  background-color: #3676ea;
+}
+.indeximage{
+    width: 300px;
+    height: 169px;
+    overflow: hidden;
+}
+
+.navbar-brand{
+    padding: 5px 5px;
+}
+
+body{
+    font-family: "微软雅黑" !important;
+}
+
+.bottom-logo{
+    width: auto;
+    height: 26px;
+    margin-top: 40px;
+}
+
+.dropdown:hover .menu-top {
+    display: block;
+}
+
+.dropdown-submenu{
+    position:relative;
+}
+
+.dropdown-submenu > .dropdown-menu{
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu{
+    display:block;
+}
+
+.dropdown-submenu > a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+
+.dropdown-submenu:hover > a:after{
+    border-left-color:#ffffff;
+}
+
+.dropdown-submenu .pull-left{
+    float:none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+.footerbanner .col-md-4{
+    padding: 0;
+}
+
+.navbar-header .navbar-brand{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.header-logo1{
+    width: 170px;
+    height: 38px;
+    display: inline !important;
+    margin-right: 12px;
+}
+.header-logo2{
+    width: 395px;
+    height: 34px;
+    display: inline !important;
+    margin-right: 0px;
+}
+hr {
+    border-top: 1px solid #878e98 !important;
+}
+
+.split a{
+    color: #878e98;
+}
+
+.split hr{
+    margin-top: 0;
+}
+
+.hr-blue{
+    border-top: 1px solid #3676ea !important;
+    margin-bottom: -20px;
+}
+
+.navbar{
+    border-bottom: 5px solid #3676ea; 
+}
+
+.halloffame-image{
+    margin-top: -70px !important;
+    margin-left: 50px !important;
+    position: relative !important;
+}
+
+.halloffame-row .col-md-3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid #878e98;
+}
+
+.halloffame-row .col-md-2{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+    border-top: 1px solid #878e98;
+}
+
+.halloffame-year{
+    margin-top: -34px;
+    margin-left: -115px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+}
+.halloffame-year1{
+    margin-top: -20px;
+    margin-left: -122px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+}
+.halloffame-year2{
+    margin-top: -20px;
+    margin-left: -113px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+}
+.manage-year1{
+    margin-top: 95px;
+    margin-left: -95px;
+    font-size: 10px;
+
+    position: absolute;
+    color: black;
+}
+.manage-year2{
+    margin-top: 60px;
+    margin-left: -95px;
+    font-size: 17px;
+
+    position: absolute;
+    color: black;
+}
+.manage-year3{
+    margin-top: 95px;
+    margin-left: -95px;
+    font-size: 10px;
+    position: absolute;
+    color: black;
+}
+.manage-year4{
+    margin-top: 110px;
+    margin-left: -95px;
+    font-size: 10px;
+    position: absolute;
+    color: black;
+}
+.manage-year5{
+    margin-top: 125px;
+    margin-left: -95px;
+    font-size: 10px;
+    position: absolute;
+    color: black;
+}
+.manage-year6{
+    margin-top: 140px;
+    margin-left: -95px;
+    font-size: 10px;
+    position: absolute;
+    color: black;
+}
+.label {
+  border-radius: 0;
+  background-color: #3676ea;
+}
+
+.label-default {
+  background-color: #878e98;
+}
+.label-default1 {
+
+  background-color: #cccccc;
+  color:#3676ea;
+  font-weight:500;
+}
+.label-default2 {
+    font-size: 20px;
+    color:#3676ea;
+  background-color: #cccccc;
+  font-weight:500; 
+}
+.label-course {
+    color:#000000;
+    font-weight: normal;
+     padding: 3px 8px 4px ;
+  font-size: 32px;
+  background-color: #cccccc;
+}
+.marquee {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.manage-row .col-md-2{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+    border-top: 1px solid #878e98;
+}
+.manage-image{
+    margin-top: -70px !important;
+    margin-left: 23px !important;
+    position: relative !important;
+}
+.course-row .col-md-2{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+    border-top: 1px solid #878e98;
+}
+.course-image{
+    margin-top: -70px !important;
+    margin-left: 23px !important;
+    position: relative !important;
+}
+.course-year2{
+    margin-top: 50px;
+    margin-left: -33%;
+    font-size: 13px;
+
+    position: absolute;
+    color: black;
+}
+.course-year3{
+    margin-top: 50px;
+    margin-left: -34%;
+    font-size: 13px;
+
+    position: absolute;
+    color: black;
+}
+.course-year4{
+    margin-top: 50px;
+    margin-left: -37%;
+    font-size: 13px;
+
+    position: absolute;
+    color: black;
+}
+.course-year6{
+    margin-top: 50px;
+    margin-left: -44%;
+    font-size: 13px;
+
+    position: absolute;
+    color: black;
+}
+.course-row .col-md-2{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+    border-top: 1px solid #878e98;
+}
+.course-image{
+    margin-top: -55px !important;
+    margin-left: 43px !important;
+    position: relative !important;
+}

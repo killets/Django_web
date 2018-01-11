@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+.margin-bottom{
+    
+    margin-bottom:150px;
+}
+.section-header {
+    text-align:center;
+    padding-top:30px;
+}
+
+.grey-text-content1 {
+    margin-top:50px;
+    font-family: "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             serif;
+    font-size:16px;
+    color:#777;
+    width:100%;
+    height:auto;
+    background-color: #f8f8f8;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.text-padding-top {
+    padding-top: 30px;
+}
+
+.sub-headingset {
+    margin-left:200px;
+    display:block;
+}
+
+.nav-2nd{
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+}
+.nav-2nd-1{
+    z-index: 20;
+    left: 0;
+    right: 0;
+}
+
+.down-80{
+    margin-top:80px;
+}
+
+.project .col-md-2 img{
+    margin-top: 25px;
+}
+.project .col-md-4 {
+    margin-left: -10px;
+}
+.project .row{
+    margin-bottom: 40px;
+}
+.sub-title{
+    transform: scale(1, 0.89);
+    height: 55px;
+}

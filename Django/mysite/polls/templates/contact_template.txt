@@ -1,0 +1,42 @@
+中文姓名(Chinese Name) *
+    {{ ChineseName }}
+拼音姓名(PinYin Name) *
+    {{ PinYinName }}
+英文姓名(English Name) *
+    {{ EnglishName }}
+出生日期(Date of birth) *
+    {{ DateBirth }}
+年龄(Age) *
+    {{ Age }}
+邮箱(Email) *
+    {{ Email }}
+电话(Phone) *
+    {{ Phone }}
+微信(WeChat) *
+    {{ WeChat }}
+所在城市(City) *
+    {{ City }}
+目前学校(School) *
+    {{ School }}
+年级(grade) *
+    {{ Grade }}
+
+打算报名上课日期(Date want to enroll) *
+    {{ DateEnroll }}
+需要代为安排住宿交通吗,如需要请填写具体日期 (Date of Accommodation and traffic if needed)*
+    {{ NeedTravel }}
+
+GPA成绩(Grades of GPA) *
+     {{ GPA }}
+托福或雅思成绩(Grades of TOEFL or IELTS) *
+    {{ TOEFL }}
+SAT或ACT成绩(Grades of SAT or ACT) *
+     {{ SAT }}
+
+如果未来打算赴欧美就读大学，目标院校及专业（Target school and major in US）*
+     {{ UsSchool }}
+
+来莎伦学画目的是什么？之前是否有学过绘画？在哪里学？学过多长时间？用过什么绘画材料？（What are your goals in wanting to study art at Sharron Art Center？Have you previously attended another art studio class: If “YES” where and how long ？What materials have you used before？） *
+     {{ Background }}
+是否有特别问题？（We welcome any additional questions or concerns. Please list below） *
+     {{ Questions }}
